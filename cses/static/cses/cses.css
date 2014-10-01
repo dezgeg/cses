@@ -1,3 +1,35 @@
+.zoom-logo {
+    -webkit-animation: zoomin 6s;
+    width: 800px;
+    height: auto;
+}
+@-webkit-keyframes zoomin {
+    from { -webkit-transform: scale(0.4,0.4); }
+    75% { -webkit-transform: scale(1.1,1.1); }
+    to { -webkit-transform: scale(1,1); }
+}
+@-moz-keyframes zoomin {
+    from { -moz-transform: scale(0.4,0.4); }
+    75% { -moz-transform: scale(1.1,1.1); }
+    to { -moz-transform: scale(1,1); }
+}
+@-o-keyframes zoomin {
+    from { -o-transform: scale(0.4,0.4); }
+    75% { -o-transform: scale(1.1,1.1); }
+    to { -o-transform: scale(1,1); }
+}
+@keyframes zoomin {
+    from { transform: scale(0.4,0.4); }
+    75% { transform: scale(1.1,1.1); }
+    to { transform: scale(1,1); }
+}
+.outer-login {
+    text-align: center;
+}
+.login-form  {
+    display: inline-block;
+}
+
 .list {
 	border-collapse: collapse;
 //	border-spacing: 10px 0;
